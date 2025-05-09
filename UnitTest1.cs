@@ -1,4 +1,4 @@
-namespace automaton_v23;
+namespace AutomationV23;
 
 [TestClass]
 public class UnitTest1
