@@ -8,7 +8,7 @@ namespace AutomationV23;
 public class ApiTest
 {
     
-    public IApiClient _clientApi;
+    private IApiClient _clientApi;
     
     [TestInitialize]
     public void Initialize()
