@@ -2,7 +2,7 @@ using System.Net;
 using Refit;
 using System.Text.Json;
 
-namespace AutomationV23;
+namespace AutomatonV23;
 
 [TestClass]
 public class ApiTest

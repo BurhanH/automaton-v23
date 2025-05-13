@@ -1,4 +1,4 @@
-namespace AutomationV23;
+namespace AutomatonV23;
 
 
 public record PostResponse

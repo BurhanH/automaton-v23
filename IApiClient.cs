@@ -1,6 +1,6 @@
 using Refit;
 
-namespace AutomationV23;
+namespace AutomatonV23;
 
 public interface IApiClient
 {
