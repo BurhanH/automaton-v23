@@ -22,8 +22,8 @@ MSTest<br>
    |-- .dockerignore
    |-- .gitignore
    |-- ApiTest.cs
-   |-- AutomationV23.csproj
-   |-- AutomationV23.sln
+   |-- AutomatonV23.csproj
+   |-- AutomatonV23.sln
    |-- Dockerfile
    |-- GlobalUsings.cs
    |-- IApiClient.cs

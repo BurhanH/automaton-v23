@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomationV23", "AutomationV23.csproj", "{B72414A6-42B1-4F45-972D-9C9CA2C58D04}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomatonV23", "AutomatonV23.csproj", "{B72414A6-42B1-4F45-972D-9C9CA2C58D04}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
