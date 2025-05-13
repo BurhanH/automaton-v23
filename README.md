@@ -16,10 +16,15 @@ MSTest<br>
 ## Project structure
 ```text
 -- automaton-v23
+   `-- .github
+       `-- workflows
+           |-- dotnet.yml
+   |-- .dockerignore
    |-- .gitignore
    |-- ApiTest.cs
    |-- AutomationV23.csproj
    |-- AutomationV23.sln
+   |-- Dockerfile
    |-- GlobalUsings.cs
    |-- IApiClient.cs
    |-- LICENSE
@@ -34,3 +39,24 @@ MSTest<br>
 2.  [.Net](https://dotnet.microsoft.com/en-us/learn/dotnet/what-is-dotnet)
 3.  [MSTest](https://learn.microsoft.com/en-us/dotnet/core/testing/unit-testing-csharp-with-mstest)
 4.  [Refit](https://reactiveui.github.io/refit/)
+
+## How to run tests
+
+```cmd
+dotnet test
+```
+
+```cmd
+dotnet test --verbosity normal
+```
+
+```cmd
+dotnet test --logger:"console;verbosity=detailed"
+```
+
+## Docker test and build
+
+```cmd
+docker build -t test-docker .
+```
+
