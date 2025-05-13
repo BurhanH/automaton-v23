@@ -60,3 +60,6 @@ dotnet test --logger:"console;verbosity=detailed"
 docker build -t test-docker .
 ```
 
+## Docker test and build sample
+
+https://github.com/user-attachments/assets/a4c69940-dec2-4a02-a860-5235b09d77df
