@@ -60,6 +60,24 @@ dotnet test --logger:"console;verbosity=detailed"
 docker build -t test-docker .
 ```
 
+## Docker runs an image with all tests
+
+```cmd
+docker run test-docker
+```
+
+## Docker runs an image with all tests and specified logger
+
+```cmd
+docker run test-docker /logger:console;verbosity=normal
+```
+
+## Docker runs an image with specified tests
+```cmd
+docker run test-docker /Tests:TestGetPosts,TestGetPostComments
+```
+
+
 ## Docker test and build sample
 
 https://github.com/user-attachments/assets/6a082a50-b876-48e8-921a-56c06203cbe8
