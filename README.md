@@ -40,7 +40,7 @@ MSTest<br>
 3. [MSTest](https://learn.microsoft.com/en-us/dotnet/core/testing/unit-testing-csharp-with-mstest)
 4. [Refit](https://reactiveui.github.io/refit/)
 5. [Docker](https://www.docker.com/)
-6. [GitHub Action](https://github.com/features/actions)
+6. [GitHub Actions](https://github.com/features/actions)
 
 ## How to run tests
 
